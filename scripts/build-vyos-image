@@ -167,7 +167,7 @@ if __name__ == "__main__":
     parser.add_argument('--custom-package', help="Custom package to install from repositories", action='append', default=[])
 
     # Build flavor is a positional argument
-    parser.add_argument('build_flavor', help='Build flavor', nargs='?', action='store')
+    parser.add_argument('--build_flavor', help='Build flavor', nargs='?', action='store')
 
     args = vars(parser.parse_args())
 
